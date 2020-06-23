@@ -12,13 +12,13 @@
 typedef struct Node Node;
 struct Node{
 	int info[TOPE];
-	Nodo *sig;
+	Node *sig;
 };
 
 typedef struct Queue Queue;
 struct Queue {
-	Nodo *cabecera;
-	Nodo *ultimo;
+	Node *cabecera;
+	Node *ultimo;
 };
 
 void create_empty_queue (Queue *c);
