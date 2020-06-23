@@ -17,8 +17,8 @@ struct Node{
 
 typedef struct Queue Queue;
 struct Queue {
-	Nodo *head;
-	Nodo *tail;
+	Nodo *cabecera;
+	Nodo *ultimo;
 };
 
 void create_empty_queue (Queue *c);
